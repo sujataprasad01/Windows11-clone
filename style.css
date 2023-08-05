@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(images/Windows-11-background-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+
+.taskbar{
+    position: sticky;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(237, 235, 235);
+    justify-content: space-between;
+    z-index: 110;
+}
+.window{
+    width: 23px;
+    height: 23px;
+}
+.search{
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border-color: transparent;
+}
+.search-icon{
+    width: 10px;
+    height: 15px;
+}
+.searchdiv{
+    width: 250px;
+    background-color: white;
+   
+}
+.select{
+    background-color: transparent;
+    
+    border-color: transparent;
+}
+.weather{
+    width: 20px;
+    height: 20px;
+}
+.date{
+    width: 100px;
+    height: 20px;
+    background-color: transparent;
+    border-color: transparent;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+}
+.currenttime{
+    width: 70px;
+    border-color: transparent;
+    background-color: transparent;
+    
+}
+.icons{
+    width: 40px;
+    
+}
+.icons i{
+    cursor: pointer;
+}
+title{
+    border-radius: 5px;
+    border-color: transparent;
+}
+img{
+    margin: 0px 11px;
+}
+.center{
+    align-items: center;
+    justify-content: center;
+    height:40px ;
+    display: flex;
+    width: 500px;
+    z-index: 110;
+}
+.hover{
+    width: 38px;
+    height: 38px;
+    margin: 0 5px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.hover:hover{
+    background-color: rgb(255, 251, 251);
+    border-radius: 5px;
+}
+.hover3{
+    width: 38px;
+    height: 38px;
+    margin: 0 5px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.hover3:hover{
+    background-color: rgb(255, 251, 251);
+    border-radius: 5px;
+}
+.hover2:hover{
+    background-color: rgb(255, 251, 251);
+    border-radius: 5px;
+}
+
+.search:hover{
+    background-color:  rgb(255, 248, 248);
+}
+.hover2{
+    width: 107px;
+    height: 40px;
+    align-items: end;
+}
+.internet{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.network{
+     width: 100px;
+     height: 40px;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+}
+.network:hover{
+    background-color: rgb(255, 251, 251);
+    border-radius: 5px;
+}
+.globe{
+    width: 70px;
+    height: 17px;
+}
+.startmenu{
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    bottom: -100px;
+    transition: all 0.3s ease-in;
+    
+}
+.startmenu img{
+    width: 600px;
+    height: 600px;
+    border-radius: 8px;
+}
+
+.icon{
+    background-size: cover;
+    background-color: rgb(20, 20, 41);
+
+        width: 38px;
+        height: 38px;
+        margin: 0 5px;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+}
+
+.icon{
+    margin: 20px;
+    margin-bottom: 25px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    font-size: smaller;
+    width: 45px;
+    height: 40px;
+}
+.icon img{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(20, 20, 41);
+
+}
+
+.hover4{
+    width: 135px;
+    height: 38px;
+    margin: 0 5px;
+    padding: 0%;
+    background-size: cover;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+}
+.hover4:hover{
+    background-color: rgb(255, 251, 251);
+    border-radius: 5px;
+}
+
+.window2{
+    width: 30px;
+    height: 30px;
+}
